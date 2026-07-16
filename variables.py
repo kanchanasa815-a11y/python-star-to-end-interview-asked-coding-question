@@ -1,4 +1,5 @@
 #swaping two numbers
+
 a=int(input("Enter the num1:"))
 b=int(input("Enter the num2:"))
 print(a,b)
@@ -7,14 +8,14 @@ a=b
 b=temp
 print(a,b)
 
-#other method
+#other method [swaping two numbers without using the third variable]
 a=int(input("Enter the num1:"))
 b=int(input("Enter the num2:"))
 print(a,b)
 a,b=b,a
 print(a,b)
 
-#other methon
+#other method
 a=8
 b=9
 print(a,b)
@@ -22,7 +23,6 @@ a,b=b,a
 print(a,b)
 
 #find the data type of a variable
-
 a="string"
 b=0.99
 c=90
@@ -40,3 +40,21 @@ print(type(f))
 print(type(g))
 print(type(e))
 print(type(h))
+
+# Input name and age and display them
+name=input("Enter the name: ")
+age=int(input("Enter the age: "))
+print(name)
+print(age)
+
+#Calculate simple interest
+p=float(input("Enter the principal amount: "))
+r=float(input("ENter the rate of interest: "))
+t=float(input("Enter the time: "))
+
+simple_interest=(p*r*t)/100
+
+print("simple interest= ",simple_interest)
+
+
+
