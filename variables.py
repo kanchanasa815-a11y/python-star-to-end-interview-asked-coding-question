@@ -56,5 +56,18 @@ simple_interest=(p*r*t)/100
 
 print("simple interest= ",simple_interest)
 
+#Calculate the area of circle
+r=int(input("Enter the radius:"))
+area_of_circle=3.14*r*r
+print("Area of circle=",area_of_circle)
+
+#other method of the area of the circle
+import math
+radius=float(input("Enter the radius: ")
+area_of_circle=math.pi*radius*radius
+print("Area of circle:",area_of_circle)
+             
+
+
 
 
