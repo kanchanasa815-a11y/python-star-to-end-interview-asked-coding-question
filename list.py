@@ -15,4 +15,9 @@ smaller_num=min(number)
 print(larger_num)
 print(smaller_num)
 
+#reverse the list
+number=[89,54,34,68,90]
+number.reverse()
+print(number)
+
 
