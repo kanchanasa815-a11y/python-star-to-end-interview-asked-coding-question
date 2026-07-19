@@ -1,1 +1,18 @@
+#Find largest element
+number=[90,80,35,46,70]
+number.sort()
+print(number[-1])
+
+#Find smallest Element
+number=[90,80,35,46,70]
+number.sort()
+print(number[0])
+
+#other code both small and larger
+number=[90,80,35,46,70]
+larger_num=max(number)
+smaller_num=min(number)
+print(larger_num)
+print(smaller_num)
+
 
