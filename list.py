@@ -20,4 +20,10 @@ number=[89,54,34,68,90]
 number.reverse()
 print(number)
 
+#Remove Duplicate
+number=[9,2,3,3,9,7,2]
+remove_duplicate=list(set(number))
+print(remove_duplicate)
+
+
 
