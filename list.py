@@ -25,5 +25,14 @@ number=[9,2,3,3,9,7,2]
 remove_duplicate=list(set(number))
 print(remove_duplicate)
 
+#count frequency of Element
+number=[10,20,30,10,20,30,40]
+frequency={}
+for num in number:
+  if num in frequency:
+    frequency[num]+=1
+  else:
+    frequency[num]=1
+print(frequency)
 
 
