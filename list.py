@@ -35,4 +35,11 @@ for num in number:
     frequency[num]=1
 print(frequency)
 
+#Find the Second Largest Element
+number=[90,87,78,56,76,72]
+print(number)
+number.sort()
+print(number)
+
+
 
