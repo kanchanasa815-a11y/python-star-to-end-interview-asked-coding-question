@@ -20,6 +20,16 @@ number=[89,54,34,68,90]
 number.reverse()
 print(number)
 
+#Reverse the String
+text=input("Enter the string: ")
+reverse_text=text[::-1]  #[start:stop:step]
+print(reverse_text)
+
+#Check Palandrom
+text=input("Enter the text: ")
+if text==text[::-1]:
+  
+
 #Remove Duplicate
 number=[9,2,3,3,9,7,2]
 remove_duplicate=list(set(number))
