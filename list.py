@@ -25,11 +25,13 @@ text=input("Enter the string: ")
 reverse_text=text[::-1]  #[start:stop:step]
 print(reverse_text)
 
-#Check Palandrom
+#Check Pailandrom
 text=input("Enter the text: ")
 if text==text[::-1]:
+  print("Pailandrom")
+else:
+  print("Not pailandrom")
   
-
 #Remove Duplicate
 number=[9,2,3,3,9,7,2]
 remove_duplicate=list(set(number))
