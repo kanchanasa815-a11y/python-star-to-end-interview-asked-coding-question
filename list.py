@@ -53,5 +53,24 @@ print(number)
 number.sort()
 print(number)
 
+#Marge of Two List
+Marge of the Two list using oparator(+),extand(),append(),unpacking(*)
+#Marge using operator(+)                    #marge using extand()
+list1=[1,2,3,4,5]                        list1=[1,2,3,4,5]
+list2=[6,7,8,9,0]                        list2=[6,7,8,9,0]          
+marge_list=list1+list2       or          list1.extend(list2)
+print(marge_list)                        print(list1)
 
+#Marge using append()
+list1=[1,2,3,4,5]                        
+list2=[6,7,8,9,0]
+for item in list2:
+  list1.append(item)
+  print(list1)
+  
+#Marge using Unpacking(*)
+list1=[1,2,3,4,5]                        
+list2=[6,7,8,9,0]
+marge_list=[*list1,*list2]
+print(marge_list)
 
