@@ -74,3 +74,10 @@ list2=[6,7,8,9,0]
 marge_list=[*list1,*list2]
 print(marge_list)
 
+#Rotate list by K position
+number=[10,20,30,40,50]
+k=int(input("Enter a K: ")
+k=k%len(number)
+rotate=number[-k:]+[:-k]
+print("Rotate= ",rotate)
+
