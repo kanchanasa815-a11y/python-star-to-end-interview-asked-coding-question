@@ -81,3 +81,13 @@ k=k%len(number)
 rotate=number[-k:]+[:-k]
 print("Rotate= ",rotate)
 
+#Moves Zero to End
+number=[2,0,3,0,0,0,5,6]
+result=[]
+for num in number:
+  if num!=0:
+    result.append(num)
+zeros=len(number)-len(result)
+result.extend([0]*zeros)
+print(result)
+
