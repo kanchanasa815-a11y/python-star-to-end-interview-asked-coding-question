@@ -91,3 +91,20 @@ zeros=len(number)-len(result)
 result.extend([0]*zeros)
 print(result)
 
+#Find the one Missing number
+number=[1,2,3,4,6]
+n=len(number)+1
+expected_sum=n*(n+1)//2
+actual_sum=sum(number)
+missing=expected_sum-actual_sum
+print("Missing Number:",missing)
+
+#Findimg all missing number
+number=[1,2,5,7,9]
+missing=[]
+for i in range(1,max(number)+1):
+  if i not in number:
+    missing.append(i)
+print("missing Number:",missing)
+
+
