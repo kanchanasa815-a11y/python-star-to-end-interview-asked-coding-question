@@ -76,7 +76,7 @@ print(marge_list)
 
 #Rotate list by K position
 number=[10,20,30,40,50]
-k=int(input("Enter a K: ")
+k=int(input("Enter a K: "))
 k=k%len(number)
 rotate=number[-k:]+number[:-k]
 print("Rotate= ",rotate)
@@ -106,5 +106,20 @@ for i in range(1,max(number)+1):
   if i not in number:
     missing.append(i)
 print("missing Number:",missing)
+
+#finding common Element
+list1=[10,20,30,40,50]
+list2=[60,10,20,70,30]
+common=[]
+for i in list1:
+  if i in list2:
+    common.append(i)
+    print(common)
+     (or)
+list1=[10,20,30,40,50]
+list2=[60,10,20,70,30]
+for i in list1:
+  if i in list2:
+    print(i)
 
 
