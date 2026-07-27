@@ -78,7 +78,7 @@ print(marge_list)
 number=[10,20,30,40,50]
 k=int(input("Enter a K: ")
 k=k%len(number)
-rotate=number[-k:]+[:-k]
+rotate=number[-k:]+number[:-k]
 print("Rotate= ",rotate)
 
 #Moves Zero to End
