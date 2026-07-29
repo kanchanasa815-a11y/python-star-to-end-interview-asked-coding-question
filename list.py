@@ -134,5 +134,14 @@ number=[1,2,3,4,5,6,7,8,9]
 odd=[i for i in number if i%2!=0]
 print(odd)
 
+#Find the maximun number
+number=[20,30,40,50,80,100]
+number.sort
+print(number[-1])
+        (or)
+number=[20,30,40,50,80,100]
+num=max(number)
+print(num)
+
 
 
