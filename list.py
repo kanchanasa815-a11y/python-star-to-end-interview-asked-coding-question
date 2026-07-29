@@ -121,11 +121,18 @@ list2=[60,10,20,70,30]
 for i in list1:
   if i in list2:
     print(i)
+    
 #check the sorted number
 numbers=[10,20,90,70,40,30]
 if numbers==sorted(numbers):
   print("Number is sorted")
 else:
   print("Number is not sorted")
+
+#Remove even number
+number=[1,2,3,4,5,6,7,8,9]
+odd=[i for i in number if i%2!=0]
+print(odd)
+
 
 
