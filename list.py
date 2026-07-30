@@ -143,5 +143,9 @@ number=[20,30,40,50,80,100]
 num=max(number)
 print(num)
 
+#Sum of all Numbers
+numbers=[2,3,4,5,6,7,8]
+total=sum(numbers)
+print("sum= " ,total)
 
 
