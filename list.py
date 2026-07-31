@@ -148,4 +148,14 @@ numbers=[2,3,4,5,6,7,8]
 total=sum(numbers)
 print("sum= " ,total)
 
+#Find Average
+Average = Sum of all numbers / Number of numbers
+numbers=[1,2,3,4,5,6]
+a=sum(numbers)
+b=len(numbers)
+Average=a/b
+print(Average)
+	​
+
+
 
