@@ -8,4 +8,8 @@ print(max(numbers))
 #Count Occurrences    ==>Occurrences means how many time the number will oppears
 numbers=(2,2,2,3,4,5,2,5,7,3,2,9)
 print(numbers.count(2))
+#Conver the tuples into the list
+number=(3,4,5,6,7)
+a=list(number)
+print(a)
 
